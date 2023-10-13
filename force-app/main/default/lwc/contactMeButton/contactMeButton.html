@@ -22,12 +22,12 @@
 
       <div class="button-container">
         <input type="submit">
-        <button onclick={closeDialog}>Cancel</button>
+        <button type="button" onclick={closeDialog}>Cancel</button>
       </div>
     </form>
   </dialog>
 
-  <button onclick={showDialog}>Contact Me</button>
+  <button class="launch-button" onclick={showDialog}>Contact Me</button>
 
   <c-snackbar></c-snackbar>
 </template>
