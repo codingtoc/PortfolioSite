@@ -8,13 +8,30 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"c869f315-972d-4e97-b971-f7c7688b7bff\",\"columns\":[{\"UUID\":\"6091c8c2-3e93-42e8-8934-2199caa52cf3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : { }
+              },
               "definition" : "c:hero",
               "id" : "f59834bc-8f81-4a80-812d-d80275715203",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:skillCards",
+              "id" : "c8d7d14c-af00-4e5e-94ea-4df300dd5585",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:aboutMe",
+              "id" : "29569eab-96c2-40ed-8f0c-e3039fa228b6",
               "type" : "component"
             } ],
             "id" : "6091c8c2-3e93-42e8-8934-2199caa52cf3",
@@ -35,6 +52,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },

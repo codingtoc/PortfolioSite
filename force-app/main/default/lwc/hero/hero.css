@@ -29,8 +29,12 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
+  .outer-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .container {
-    float: left;
     width: 50%;
   }
 

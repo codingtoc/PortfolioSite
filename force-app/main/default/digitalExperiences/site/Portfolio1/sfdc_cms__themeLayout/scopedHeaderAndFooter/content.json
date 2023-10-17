@@ -9,9 +9,18 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"af176a85-0d13-4774-9bab-aa2e2eaeff6f\",\"columns\":[{\"UUID\":\"c83ce3d0-978a-4f1e-b0a8-148860b4e088\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:navMenu",
+              "id" : "4892b879-d072-4f3f-9cf2-5812a5b15eff",
+              "type" : "component"
+            } ],
             "id" : "c83ce3d0-978a-4f1e-b0a8-148860b4e088",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -30,9 +39,24 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"e55ad5d1-5d04-4843-96a1-9377df62d9e2\",\"columns\":[{\"UUID\":\"01a41758-3360-4f5d-9407-8b199e38c852\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site built Lightning Web Components running on Lightning Web Runtime.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "53032faa-df81-4e03-97b3-6f1ecd903f3d",
+              "type" : "component"
+            } ],
             "id" : "01a41758-3360-4f5d-9407-8b199e38c852",
             "name" : "footerSection",
             "title" : "Theme Footer",
